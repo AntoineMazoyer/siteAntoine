@@ -1,0 +1,23 @@
+@mixin mobile-screen {
+    @media screen and (min-width: map-get($mobileonly, mobile)) {
+        @content;
+    }
+}
+
+@mixin tablet-screen {
+    @media screen and (min-width: map-get($tabletonly, tablet)) {
+        @content;
+    }
+}
+
+@mixin normal-screen {
+    @media screen and (min-width: map-get($normalscreen, normal)) {
+        @content;
+    }
+}
+
+@mixin huge-screen {
+    @media screen and (min-width: map-get($hugescreen, huge)) {
+        @content;
+    }
+}

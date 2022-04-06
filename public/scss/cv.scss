@@ -1,0 +1,38 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+.row{
+    .presentation{
+        width: 100%;
+        background-color: darken($white-color, 80%);
+        color: darken($white-color, 15%);
+        i.medium {
+            color: darken($white-color, 15%);
+        }
+        .profil_image{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2em;
+            img{
+                max-width: 30%;
+            }
+        }
+        .contact{
+            margin-top: 2em;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            line-height: 0;
+        }
+    }
+    .information{
+        width: 100%;
+        background-color: darken($white-color, 15%);
+    }
+    .cv.dwlnd{
+        width: 100%;
+    }
+}
