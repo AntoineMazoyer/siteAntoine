@@ -14,7 +14,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            margin-top: 2em;
+            margin-top: 10%;
             img{
                 max-width: 30%;
             }
@@ -28,9 +28,30 @@
             line-height: 0;
         }
     }
-    .information{
-        width: 100%;
-        background-color: darken($white-color, 15%);
+    .informations{
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        .collection{
+            width: 70%;
+            .collection-item{
+                background-color: transparent;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                i.material-icons.circle{
+                    position: absolute;
+                    float: left;
+                }
+                span.text1, span.text2, p {
+                    margin-left: 15%;
+                    line-height: 0;
+                }
+            }
+        }
     }
     .cv.dwlnd{
         width: 100%;

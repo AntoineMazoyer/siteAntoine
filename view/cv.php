@@ -4,12 +4,22 @@
         <div class="profil_image">
             <img class="circle responsive-img" src="../public/medias/antoine.jpg">
         </div>
-        <div class="contact">
-            <p>3, square des mésanges</p>
-            <p>44115 Basse Goulaine</p>
-            <p>0687666054</p>
-            <p>contact@antoine-mazoyer.fr
-            <p>Permis B</p>
+        <div class="informations">
+            <ul class="collection">
+                <li class="collection-item location">
+                    <i class="material-icons circle">place</i>
+                    <p class="text1">3, square des mésanges</p>
+                    <p class="text2">44115 Basse Goulaine</p>
+                </li>
+                <li class="collection-item location">
+                    <i class="material-icons circle">phone</i>
+                    <p class="text1">0687666054</p>
+                    <p class="text2">contact@antoine-mazoyer.fr</p>
+                </li>
+            </ul>
+            <div class="extra">
+                <p>Permis B</p>
+            </div>
         </div>
     </div>
     <div class="information col s9">
