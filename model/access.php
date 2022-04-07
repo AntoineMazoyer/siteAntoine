@@ -2,6 +2,6 @@
 
 function Redirect()
 {
-    header("Location: controller/home.php");
+    header("Location: accueil");
     exit();
 }

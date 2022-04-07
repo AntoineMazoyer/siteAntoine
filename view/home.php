@@ -20,7 +20,7 @@
         </div>
     </div>
   <div class="profil cv">
-          <a class="btn" href="cv.php">Visualiser mon CV</a>
+          <a class="btn" href="cv">Visualiser mon CV</a>
   </div>
 </section>
 
@@ -88,7 +88,7 @@
       </div>
     </div>
     <div class="btn_placement">
-        <a class="more btn" href="skills.php">En savoir plus sur mes compétences (Portfolio)</a>
+        <a class="more btn" href="competences">En savoir plus sur mes compétences (Portfolio)</a>
     </div>
 </section>
 
