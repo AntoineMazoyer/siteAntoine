@@ -1,7 +1,7 @@
 <title><?=$title?></title>
 </head>
 
-<a class="waves-effect waves-light btn" href="home.php"><i class="material-icons left">home</i>Retour à l'accueil</a>
+<a class="waves-effect waves-light btn" href="accueil"><i class="material-icons left">home</i>Retour à l'accueil</a>
 
 <div class="row">
 

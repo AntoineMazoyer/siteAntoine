@@ -99,7 +99,7 @@ body {
 
 @media screen and (min-width: 2560px) {
   .header-content .presentation h2 {
-    font-size: 6.5vh;
+    font-size: 4.5vh;
   }
 }
 
@@ -155,7 +155,7 @@ body {
   }
 }
 
-.aboutme .profil_content {
+.aboutme .row.profil_content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -167,7 +167,7 @@ body {
 }
 
 @media screen and (min-width: 320px) {
-  .aboutme .profil_content {
+  .aboutme .row.profil_content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -176,7 +176,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .aboutme .profil_content {
+  .aboutme .row.profil_content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -185,7 +185,7 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  .aboutme .profil_content {
+  .aboutme .row.profil_content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -194,7 +194,7 @@ body {
 }
 
 @media screen and (min-width: 2560px) {
-  .aboutme .profil_content {
+  .aboutme .row.profil_content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -202,35 +202,65 @@ body {
   }
 }
 
-.aboutme .profil_content .profil_image {
+.aboutme .row.profil_content .profil_image {
   text-align: center;
 }
 
-.aboutme .profil_content .profil_image img {
+@media screen and (min-width: 320px) {
+  .aboutme .row.profil_content .profil_image {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .aboutme .row.profil_content .profil_image {
+    width: 33.3333333333%;
+  }
+}
+
+.aboutme .row.profil_content .profil_image img {
   z-index: 1;
   border: 2px solid white;
 }
 
 @media screen and (min-width: 320px) {
-  .aboutme .profil_content .profil_image img {
+  .aboutme .row.profil_content .profil_image img {
     max-width: 35%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .aboutme .profil_content .profil_image img {
-    max-width: 25%;
+  .aboutme .row.profil_content .profil_image img {
+    max-width: 20%;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .aboutme .profil_content .profil_image img {
-    max-width: 35%;
+  .aboutme .row.profil_content .profil_image img {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .aboutme .row.profil_content .profil_image img {
+    max-width: 25%;
   }
 }
 
 @media screen and (min-width: 320px) {
-  .aboutme .profil_content .profil_description p {
+  .aboutme .row.profil_content .profil_description {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .aboutme .row.profil_content .profil_description {
+    width: 66.6666666667%;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .aboutme .row.profil_content .profil_description p {
     font-size: 2vh;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -238,21 +268,21 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .aboutme .profil_content .profil_description p {
-    font-size: 3vh;
+  .aboutme .row.profil_content .profil_description p {
+    font-size: 2vh;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .aboutme .profil_content .profil_description p {
-    font-size: 2vh;
+  .aboutme .row.profil_content .profil_description p {
+    font-size: 1.6vh;
     margin-left: 0;
   }
 }
 
 @media screen and (min-width: 2560px) {
-  .aboutme .profil_content .profil_description p {
-    font-size: 3.5vh;
+  .aboutme .row.profil_content .profil_description p {
+    font-size: 2.5vh;
   }
 }
 
@@ -274,9 +304,10 @@ body {
 
 @media screen and (min-width: 320px) {
   .aboutme .btn {
-    height: 100%;
-    line-height: inherit;
-    border-radius: 1vw;
+    height: 40px;
+    width: 50%;
+    border-radius: 2vw;
+    font-size: large;
   }
 }
 
@@ -286,7 +317,7 @@ body {
     height: 100%;
     width: 40%;
     line-height: inherit;
-    border-radius: 1vw;
+    border-radius: 2vw;
     padding: 0;
   }
 }
@@ -297,7 +328,7 @@ body {
     height: 100%;
     width: 20%;
     line-height: inherit;
-    border-radius: 1vw;
+    border-radius: 2vw;
     padding: 0;
   }
 }
@@ -308,7 +339,7 @@ body {
     height: 100%;
     width: 30%;
     line-height: inherit;
-    border-radius: 1vw;
+    border-radius: 2vw;
     padding: 0;
   }
 }
@@ -323,6 +354,13 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+}
+
+.formation table {
+  width: 90%;
+  margin-left: 5%;
+  border: black 1px solid;
+  margin-bottom: 2%;
 }
 
 .formation h2 {

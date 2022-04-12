@@ -3,24 +3,24 @@
 <header>
     <section class="header-content">
         <div class="name"><h1>Antoine Mazoyer</h1></div>
-        <div class="presentation"><h2>Concepteur Développeur d'Applications</h2></div>
+        <div class="presentation"><h2>Data Analyst</h2></div>
     </section>
 </header>
 
 <section class="aboutme">
   <div class="title"><h2>À propos de moi</h2></div>
-    <div class="profil_content">
-        <div class="profil_image">
+    <div class="row profil_content">
+        <div class="col s4 profil_image">
             <img class="circle responsive-img" src="../public/medias/antoine.jpg">
         </div>
-        <div class="profil_description">
-            <p>Antoine MAZOYER, <?php echo $mon_age ?> ans, passionné par l'informatique.<br>J'ai conçu ce site pour vous montrer l'ensemble de mes compétences que j'ai acquises dans ce domaine. 
-            Par l'intermédiaire de différents projets, que se soit à l'école, en entreprise ou par moi-même à travers différents projets personnels<br>
-            Ce site vous permettra également, recruteur/particulier, d'en savoir un peu plus sur mon profil.</p>
+        <div class="col s8 profil_description">
+            <p>Antoine MAZOYER, <?php echo $mon_age ?> ans, passionné par l'informatique.<br>J'ai conçu ce site pour vous montrer l'ensemble des compétences que j'ai acquises dans ce domaine.<br>
+            Par l'intermédiaire de différents projets, que se soit à l'école, en entreprise ou par moi-même.<br>
+            Ce site vous permettra, recruteur || particulier, d'avoir des détails sur mon profil.</p>
         </div>
     </div>
   <div class="profil cv">
-          <a class="btn" href="cv">Visualiser mon CV</a>
+          <a class="btn" href="cv">Voir mon CV</a>
   </div>
 </section>
 
@@ -28,7 +28,7 @@
     <div class="formation_title">
         <h2>Mon parcours</h2>
     </div>
-    <table class="striped centered">
+    <table class="striped">
         <thead>
           <tr>
             <th>Nom de la formation</th>
@@ -38,16 +38,16 @@
 
         <tbody>
           <tr>
-            <td>BTS comptabilité-gestion en alternance</td>
-            <td>Contrôle de la TVA mensuelle et hebdomadaire au sein de l'entreprise Orange. Contrôle des différents écarts et régularisation de ces derniers.</td>
-          </tr>
-          <tr>
-            <td>Bachelor informatique (Titre CDA) en alternance</td>
-            <td>Préparation du titre Concepteur Développeur d'Applications avec l'entreprise La Poste. Réalisation d'une application web de gestion de projets pour les collaborateurs du groupe La Poste. Langages utilisés : PHP, JavaScript, CSS3, HTML5 et SQL.</td>
-          </tr>
-          <tr>
             <td>Data Analyst</td>
-            <td>Préparation et validation de la formation de Data Analyst avec OpenClassrooms</td>
+            <td>Formation de Data Analyst avec OpenClassrooms.</td>
+          </tr>
+          <tr>
+            <td>Concepteur Développeur d'Applications</td>
+            <td>Validation de mon bachelor en informatique avec l'entreprise La Poste en alternance. Réalisation d'une application web de suivi de gestion de projets pour les collaborateurs.</td>
+          </tr>
+          <tr>
+            <td>BTS comptabilité-gestion</td>
+            <td>Alternance avec l'entrperise Orange. Contrôle et régularisation des écarts de la TVA hebdomadaire et mensuelle.</td>
           </tr>
         </tbody>
       </table>
@@ -92,11 +92,13 @@
     </div>
 </section>
 
-<section class="projects">
-    <div class="project_title">
-        <h2>Projets + Veille Technologique</h2>
+<section class="projects_technology">
+    <div class="projects col s6">
+        <h2>Projets</h2>
     </div>
-    <div><p>En cours de réalisation</p></div>
+    <div class="technologywatch col s6">
+      <h2>Veille Technologique</h2>
+    </div>
     <!-- <div class="row">
       <ul class="collapsible popout col s6">
         <li>
