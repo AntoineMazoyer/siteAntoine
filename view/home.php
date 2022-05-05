@@ -94,76 +94,8 @@
 
 <section class="projects_technology">
     <div class="projects col s6">
-        <h2>Projets</h2>
+      <h2><a href="projets&veille_techno">Projets et Veille Technologique</a></h2>
     </div>
-    <div class="technologywatch col s6">
-      <h2>Veille Technologique</h2>
-    </div>
-    <!-- <div class="row">
-      <ul class="collapsible popout col s6">
-        <li>
-          <div class="collapsible-header"><i class="material-icons">business_center</i>Liste de mes projets</div>
-          <div class="collapsible-body">
-            <ul class="collection">
-              <li class="collection-item avatar">
-                <a href="#!">
-                  <img src="../public/medias/airAtlantique.png" alt="" class="circle">
-                  <span class="title">AirAtlantique</span>
-                  <p><br>Réalisation d'une application en WPF permettant la gestion des vols pour l'entreprise.</p>
-                </a>
-              </li>
-            </ul><br>
-            <ul class="collection">
-              <li class="collection-item avatar">
-                <a href="#!">
-                  <img src="../public/medias/airAtlantique.png" alt="" class="circle">
-                  <span class="title">AirAtlantique</span>
-                  <p><br>Réalisation d'une application web permettant aux clients d'air Atlantique de réserver 
-                    un vol et d'acheter leurs billets.</p>
-                </a>
-              </li>
-            </ul><br>
-            <ul class="collection">
-              <li class="collection-item avatar">
-                <a href="#!">
-                  <img src="../public/medias/laposte.png" alt="" class="circle">
-                  <span class="title">La Poste</span>
-                  <p><br>Création d'une application web pour le pôle du CSMSI de La Poste permettant d'améliorer leur gestion de projets
-                  (ASGP - Application de Suivie de Gestion de Projet).</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        </ul>
-        <ul class="collapsible popout col s6">
-          <li>
-            <div class="collapsible-header"><i class="material-icons">border_color</i>Veille Technologique</div>
-            <div class="collapsible-body">
-              <ul class="collection">
-                <li class="collection-item avatar">
-                  <a href="#!">
-                    <img src="../public/medias/RAID0.png" alt="" class="circle">
-                    <span class="title">Les Raids</span>
-                    <p><br>Étude réalisée sur une technologie permettant aux entreprises de stocker leurs données.
-                    </p>
-                  </a>
-                </li>
-              </ul><br>
-              <ul class="collection">
-              <li class="collection-item avatar">
-                <a href="#!">
-                  <img src="../public/medias/rightjoin.png" alt="" class="circle">
-                  <span class="title">Les méthodes de sauvegarde</span>
-                    <p><br>Étude menée sur la façon de sauvegarder différentes données.
-                  </p>
-                </a>
-              </li>
-              </ul>
-          </div>
-          </li>
-        </ul>
-    </div> -->
 </section>
 
 <?php require_once('../public/templates/footer.php'); ?>

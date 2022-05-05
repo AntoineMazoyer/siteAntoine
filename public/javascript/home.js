@@ -1,7 +1,3 @@
-$(document).ready(function(){
-  $('.collapsible').collapsible();
-});
-
 function copyMail(element) {
     var range, selection;
   

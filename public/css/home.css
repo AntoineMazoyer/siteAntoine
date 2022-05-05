@@ -653,6 +653,10 @@ body {
   text-shadow: 4px 5px 4px rgba(17, 17, 17, 0.33);
 }
 
+.projects h2 a {
+  color: black;
+}
+
 @media screen and (min-width: 320px) {
   .projects h2 {
     font-size: 2.5vh;
@@ -675,9 +679,5 @@ body {
   .projects h2 {
     font-size: 6.5vh;
   }
-}
-
-.projects .collection p {
-  color: black;
 }
 /*# sourceMappingURL=home.css.map */

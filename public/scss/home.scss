@@ -407,17 +407,18 @@ body{
 
 
 .projects{
-
     display: flex;
     flex-direction: column;
     background-color: darken($white-color, 10%);
     width: 100%;
-
         h2{
             text-align: center;
             margin-bottom: 4vh;
             font-family: 'Baloo Tamma 2', cursive;
             text-shadow: 4px 5px 4px rgba(17, 17, 17, 0.33);
+            a{
+                color: black;
+            }
             @include mobile-screen{
                 font-size: 2.5vh;
             }
@@ -431,7 +432,4 @@ body{
                 font-size: 6.5vh;
             }
         }
-    .collection p{
-        color: black;
-    }
 }
