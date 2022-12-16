@@ -1,0 +1,75 @@
+body {
+  background-color: #d9d9d9;
+}
+body a.btn {
+  top: 0;
+  left: 0;
+  margin-top: 3.2vh;
+  margin-left: 6vh;
+  background-color: #999999;
+}
+body a.btn:hover {
+  background-color: #666666;
+}
+body .project-content {
+  background-color: #333333;
+}
+body .project-content h1 {
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.33);
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+body .project-content .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+body .project-content .row:after {
+  content: none;
+}
+body .project-content .row .col.s5 {
+  width: 41.6666666667%;
+  margin-left: 0;
+  left: 0;
+  right: 0;
+}
+body .technology-content {
+  background-color: #d9d9d9;
+}
+body .technology-content h1 {
+  text-align: center;
+  text-shadow: 4px 5px 4px rgba(17, 17, 17, 0.33);
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+body .technology-content .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+body .technology-content .row:after {
+  content: none;
+}
+body .technology-content .row .col.s5 {
+  width: 41.6666666667%;
+  margin-left: 0;
+  left: 0;
+  right: 0;
+}
+body .technology-content .row .raid-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 3%;
+}
+body .technology-content .row .raid-img p {
+  font-size: 1, 2vh;
+}/*# sourceMappingURL=projects.css.map */

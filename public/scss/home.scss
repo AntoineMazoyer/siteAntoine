@@ -1,0 +1,435 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.header-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../medias/nightLandscape.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+
+    .name{
+        text-align: center;
+        width: 100%;
+        color: darken($white-color, 10%);
+        font-family: 'opensans-bold', sans-serif;
+        margin-bottom: 4vh;
+        h1{
+            @include mobile-screen{
+                font-size: 4vh;
+            }
+            @include tablet-screen{
+                font-size: 5vh;
+            }
+            @include normal-screen{
+                font-size: 6vh;
+            }
+            @include huge-screen{
+                font-size: 8vh;
+            }
+        }
+    }
+
+    .presentation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+        color: darken($white-color, 10%);
+        font-family: 'opensans-bold', sans-serif;
+        h2{
+            @include mobile-screen{
+                font-size: 2.5vh;
+            }
+            @include tablet-screen{
+                font-size: 3.5vh;
+            }
+            @include normal-screen{
+                font-size: 4.5vh;
+            }
+            @include huge-screen{
+                font-size: 4.5vh;
+            }
+        }
+    }
+}
+
+.aboutme{
+    
+    background-color: darken($white-color, 80%);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+        .title{
+            width: 100%;
+            text-align: center;
+            h2{
+                font-family: 'Baloo Tamma 2', cursive;
+                text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.33);
+                @include mobile-screen{
+                    font-size: 2.5vh;
+                }
+                @include tablet-screen{
+                    font-size: 3.5vh;
+                }
+                @include normal-screen{
+                    font-size: 4.5vh;
+                }
+                @include huge-screen{
+                    font-size: 6.5vh;
+                }
+            }
+        }
+        .row.profil_content{
+            display: flex;
+            align-items: center;
+            font-family: 'Dosis', sans-serif;
+            font-size: large;
+            @include mobile-screen{
+                flex-direction: column;
+            }
+            @include tablet-screen{
+                flex-direction: column;
+            }
+            @include normal-screen{
+                flex-direction: row;
+            }
+            @include huge-screen{
+                flex-direction: row;
+            }
+            .profil_image{
+                text-align: center;
+                @include mobile-screen{
+                    width: 100%;
+                }
+                @include normal-screen{
+                    width: 33.3333333333%;
+                }
+                img{
+                    z-index: 1;
+                    border: 2px solid $white-color;
+                    @include mobile-screen{
+                        max-width: 35%;
+                    }
+                    @include tablet-screen{
+                        max-width: 20%;
+                    }
+                    @include normal-screen{
+                        max-width: 40%;
+                    }
+                    @include huge-screen{
+                        max-width: 25%;
+                    }
+                }
+            }
+            .profil_description{
+                @include mobile-screen{
+                    width: 100%;
+                }
+                @include normal-screen{
+                    width: 66.6666666667%;
+                }
+                p{
+                    @include mobile-screen{
+                        font-size: 2vh;
+                        margin-left: 3vw;
+                        margin-right: 3vw;
+                    }
+                    @include tablet-screen{
+                        font-size: 2vh;
+                    }
+                    @include normal-screen{
+                        font-size: 1.6vh;
+                        margin-left: 0;
+                    }
+                    @include huge-screen{
+                        font-size: 2.5vh;
+                    }
+                }
+            }
+        }
+        .cv{
+            width: 100%;
+            text-align: center;
+            margin-top: 6vh;
+            margin-bottom: 4vh;
+        }
+        .btn{
+            background-color: darken($white-color, 15%);
+            color: darken($black-color, 10%);
+            &:hover{
+                background-color: darken($white-color, 45%);
+            }
+            @include mobile-screen{
+                height: 40px;
+                width: 50%;
+                border-radius: 2vw;
+                font-size: large;
+            }
+            @include tablet-screen{
+                font-size: 3vw;
+                height: 100%;
+                width: 40%;
+                line-height: inherit;
+                border-radius: 2vw;
+                padding: 0;
+            }
+            @include normal-screen{
+                font-size: 1.7vw;
+                height: 100%;
+                width: 20%;
+                line-height: inherit;
+                border-radius: 2vw;
+                padding: 0;
+            }
+            @include huge-screen{
+                font-size: 2vw;
+                height: 100%;
+                width: 30%;
+                line-height: inherit;
+                border-radius: 2vw;
+                padding: 0;
+            }
+        }
+}
+
+.formation{
+
+    background-color: darken($white-color, 15%);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+        table{
+            width: 90%;
+            margin-left: 5%;
+            border: black 1px solid;
+            margin-bottom: 2%;
+        }
+
+        h2{
+            text-align: center;
+            font-family: 'Baloo Tamma 2', cursive;
+            text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.33);
+            @include mobile-screen{
+                font-size: 2.5vh;
+                margin-bottom: 3vh;
+            }
+            @include tablet-screen{
+                font-size: 3.5vh;
+                margin-bottom: 4vh;
+            }
+            @include normal-screen{
+                font-size: 4.5vh;
+                margin-bottom: 5vh;
+            }
+            @include huge-screen{
+                font-size: 6.5vh;
+                margin-bottom: 6vh;
+            }
+        }
+        h3 {
+            font-size: 1.6rem;
+        }
+
+        tr{
+            @include tablet-screen{
+                font-size: large;
+            }
+            @include normal-screen{
+                font-size: large;
+            }
+            @include huge-screen{
+                font-size: xx-large;
+            }
+        }
+}
+
+
+.skills{
+
+    background-color: darken($white-color, 80%);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+        .list{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .skill{
+            width: 40%;
+        }
+
+        h2{
+            text-align: center;
+            font-family: 'Baloo Tamma 2', cursive;
+            text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.33);
+            @include mobile-screen{
+                font-size: 2.5vh;
+                margin-bottom: 2vh;
+            }
+            @include tablet-screen{
+                font-size: 3.5vh;
+                margin-bottom: 3vh;
+            }
+            @include normal-screen{
+                font-size: 4.5vh;
+                margin-bottom: 4vh;
+            }
+            @include huge-screen{
+                font-size: 6.5vh;
+                margin-bottom: 5vh;
+            }
+        }
+        .row{
+            .col.s6{
+                margin-top: 3vh;
+            }
+        }
+        li{
+            list-style: none;
+            margin-bottom: 1vw;
+        }
+        span.bar{
+            background-color: rgb(0, 71, 6);
+            display: block;
+            border: 1px solid rgba(0,0,0,0.3);
+            border-radius: 3px;
+            overflow: hidden;
+            box-shadow: 0 0 10px #006b36b3;
+            margin-bottom: 1vw;
+            @include mobile-screen{
+                height: 1.5vw;
+            }
+            @include tablet-screen{
+                height: 0.8vw;
+            }
+            @include huge-screen{
+                height: 0.5vw;
+            }
+            span{
+                float: left;
+                background-color: rgb(0, 197, 33);
+                @include mobile-screen{
+                    height: 1.5vw;
+                }
+                @include tablet-screen{
+                    height: 0.8vw;
+                }
+                @include huge-screen{
+                    height: 0.5vw;
+                }
+                &.html{
+                    width: 90%;
+                }
+                &.css{
+                    width: 80%;
+                }
+                &.php{
+                    width: 75%;
+                }
+                &.javascript{
+                    width: 60%;
+                }
+                &.sql{
+                    width: 85%;
+                }
+                &.csharp{
+                    width: 50%;
+                }
+                &.cplusplus{
+                    width: 30%;
+                }
+                &.java{
+                    width: 30%;
+                }
+                &.python{
+                    width: 50%;
+                }
+                &.r{
+                    width: 10%;
+                }
+            }
+        }
+        .btn_placement{
+            margin-top: 6vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 3vh;
+
+            .more.btn{
+                text-align: center;
+                background-color: darken($white-color, 70%);
+                border-radius: 1vw;
+                @include mobile-screen{
+                    font-size: 0.9vh;
+                }
+                @include tablet-screen{
+                    font-size: 2vh;
+                    padding: 0 30px;
+                    letter-spacing: 0;
+                }
+                @include huge-screen{
+                    font-size: 4vh;
+                    height: 2.5vw;
+                    line-height: 2.3vw;
+                    padding: 0 50px;
+                }
+                &:hover{
+                    background-color: rgb(1, 124, 22);
+                }
+            }            
+        }
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    background-color: darken($white-color, 10%);
+    width: 100%;
+        h2{
+            text-align: center;
+            margin-bottom: 4vh;
+            font-family: 'Baloo Tamma 2', cursive;
+            text-shadow: 4px 5px 4px rgba(17, 17, 17, 0.33);
+            a{
+                color: black;
+            }
+            @include mobile-screen{
+                font-size: 2.5vh;
+            }
+            @include tablet-screen{
+                font-size: 3.5vh;
+            }
+            @include normal-screen{
+                font-size: 4.5vh;
+            }
+            @include huge-screen{
+                font-size: 6.5vh;
+            }
+        }
+}
