@@ -2,10 +2,21 @@
 @import "./utils/mixins";
 
 .my-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    grid-gap: 10px;
+    @include mobile-screen{
+        display: block;
+    }
+    @include tablet-screen{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        grid-gap: 10px;
+    }
+    @include normal-screen{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        grid-gap: 10px;
+    }
     .presentation {
         grid-column: 1;
         grid-row: 1 / 5;
@@ -121,11 +132,12 @@
 
     .hobbies {
         .hobbies-image {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            grid-gap: 8px;
             justify-content: space-between;
-            margin-right: 3%;
+            margin-right: 2%;
 
             .style-image {
                 display: flex;
@@ -150,14 +162,14 @@
     .cv.dwnld {
         grid-column: 1;
         grid-row: 2 / 4;
-        max-height: 20rem;
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: flex-end;
+        max-height: 5.5rem;
+        margin-left: 8%;
+        margin-right: 8%;
         .btn{
             background-color: #ff4500;
             border-radius: 6px;
             font-size: larger;
+            height: 100%;
         }
     }
 }

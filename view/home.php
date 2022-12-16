@@ -16,7 +16,7 @@
         <div class="col s8 profil_description">
             <p>Antoine MAZOYER, <?php echo $mon_age ?> ans, passionné par l'informatique.<br>J'ai conçu ce site pour vous montrer l'ensemble des compétences que j'ai acquises dans ce domaine.<br>
             Par l'intermédiaire de différents projets, que se soit à l'école, en entreprise ou par moi-même.<br>
-            Ce site vous permettra, recruteur || particulier, d'avoir des détails sur mon profil.</p>
+            Ce site vous permettra, recruteur ou particulier, d'en savoir plus sur mon profil.</p>
         </div>
     </div>
   <div class="profil cv">

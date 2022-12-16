@@ -1,8 +1,23 @@
-.my-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  grid-gap: 10px;
+@media screen and (min-width: 320px) {
+  .my-grid {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .my-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 10px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .my-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 10px;
+  }
 }
 .my-grid .presentation {
   grid-column: 1;
@@ -115,11 +130,12 @@
   top: -2rem;
 }
 .my-grid .hobbies .hobbies-image {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  grid-gap: 8px;
   justify-content: space-between;
-  margin-right: 3%;
+  margin-right: 2%;
 }
 .my-grid .hobbies .hobbies-image .style-image {
   display: flex;
@@ -139,13 +155,13 @@
 .my-grid .cv.dwnld {
   grid-column: 1;
   grid-row: 2/4;
-  max-height: 20rem;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: flex-end;
+  max-height: 5.5rem;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 .my-grid .cv.dwnld .btn {
   background-color: #ff4500;
   border-radius: 6px;
   font-size: larger;
+  height: 100%;
 }/*# sourceMappingURL=cv.css.map */
