@@ -121,8 +121,8 @@
 .page-footer .footer-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   flex-direction: row;
+  justify-content: space-around;
 }
 @media screen and (min-width: 320px) {
   .page-footer .footer-content .footer-contact {
@@ -136,7 +136,17 @@
 }
 .page-footer .footer-copyright {
   background-color: #1a1a1a;
-  padding-left: 2vh;
+}
+@media screen and (min-width: 320px) {
+  .page-footer .footer-copyright {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .page-footer .footer-copyright {
+    justify-content: flex-start;
+    padding-left: 1vh;
+  }
 }
 
 a#mail {

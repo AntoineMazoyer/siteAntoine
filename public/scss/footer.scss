@@ -84,8 +84,8 @@
     .footer-content{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
         flex-direction: row;
+        justify-content: space-around;
         .footer-contact{
             @include mobile-screen{
                 margin-left: 2vw;
@@ -98,7 +98,13 @@
 
     .footer-copyright{
         background-color: lighten($black-color, 10%);
-        padding-left: 2vh;
+        @include mobile-screen{
+            justify-content: center;
+        }
+        @include tablet-screen{
+            justify-content: flex-start;
+            padding-left: 1vh;
+        }
     }
 }
 

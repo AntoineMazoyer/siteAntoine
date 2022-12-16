@@ -68,18 +68,16 @@ body{
 }
 
 .aboutme{
-    
     background-color: darken($white-color, 80%);
     color: whitesmoke;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
 
         .title{
             width: 100%;
             text-align: center;
+            margin-bottom: 2%;
             h2{
                 font-family: 'Baloo Tamma 2', cursive;
                 text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.33);
@@ -93,12 +91,14 @@ body{
                     font-size: 4.5vh;
                 }
                 @include huge-screen{
-                    font-size: 6.5vh;
+                    font-size: 5.5vh;
                 }
             }
         }
         .row.profil_content{
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
             align-items: center;
             font-family: 'Dosis', sans-serif;
             font-size: large;
@@ -115,36 +115,31 @@ body{
                 flex-direction: row;
             }
             .profil_image{
+                width: 100%;
                 text-align: center;
                 @include mobile-screen{
-                    width: 100%;
+                    grid-column: 1/4;
+                    grid-row: 1;
                 }
-                @include normal-screen{
-                    width: 33.3333333333%;
+                @include tablet-screen{
+                    grid-column: 1;
+                    grid-row: 1 / 3;
                 }
                 img{
                     z-index: 1;
                     border: 2px solid $white-color;
-                    @include mobile-screen{
-                        max-width: 35%;
-                    }
-                    @include tablet-screen{
-                        max-width: 20%;
-                    }
-                    @include normal-screen{
-                        max-width: 40%;
-                    }
-                    @include huge-screen{
-                        max-width: 25%;
-                    }
+                    max-width: 30%;
                 }
             }
             .profil_description{
+                width: 100%;
                 @include mobile-screen{
-                    width: 100%;
+                    grid-column: 1/4;
+                    grid-row: 2;
                 }
-                @include normal-screen{
-                    width: 66.6666666667%;
+                @include tablet-screen{
+                    grid-column: 2 / 4;
+                    grid-row: 1 / 3;
                 }
                 p{
                     @include mobile-screen{
@@ -156,11 +151,11 @@ body{
                         font-size: 2vh;
                     }
                     @include normal-screen{
-                        font-size: 1.6vh;
+                        font-size: large;
                         margin-left: 0;
                     }
                     @include huge-screen{
-                        font-size: 2.5vh;
+                        font-size: xx-large;
                     }
                 }
             }
@@ -192,9 +187,9 @@ body{
                 padding: 0;
             }
             @include normal-screen{
-                font-size: 1.7vw;
+                font-size: 1.5vw;
                 height: 100%;
-                width: 20%;
+                width: 18%;
                 line-height: inherit;
                 border-radius: 2vw;
                 padding: 0;
@@ -211,7 +206,6 @@ body{
 }
 
 .formation{
-
     background-color: darken($white-color, 15%);
     display: flex;
     flex-direction: column;
@@ -264,7 +258,6 @@ body{
 
 
 .skills{
-
     background-color: darken($white-color, 80%);
     color: whitesmoke;
     display: flex;
@@ -385,7 +378,7 @@ body{
                 background-color: darken($white-color, 70%);
                 border-radius: 1vw;
                 @include mobile-screen{
-                    font-size: 0.9vh;
+                    font-size: 1.4vh;
                 }
                 @include tablet-screen{
                     font-size: 2vh;
