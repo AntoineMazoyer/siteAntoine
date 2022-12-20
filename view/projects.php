@@ -110,7 +110,7 @@
                    Nous verrons ici les trois sauvegardes les plus utilisées afin de conserver les différentes données.</p>
                 <div><h5><b><u>La sauvegarde totale</u></b></h3>
                 <p>La sauvegarde totale permet de réaliser une duplication complète de fichiers précise contenue dans un dossier ou dans un disque. 
-                C’est une méthode simple à utiliser, mais celle-ci est lourde puisqu’à chaque fois que l’on enregistrera une quantité de données, 
+                C’est une méthode simple à utiliser, mais celle-ci est lourde puisque à chaque fois que l’on enregistrera une quantité de données, 
                 la quantité que l'on souhaite sauvegarder va s’ajouter à la quantité déjà stockée.</p></div>
                 <div><h5><b><u>La sauvegarde différentielle</u></b></h3>
                 <p>La sauvegarde différentielle peut être faite après avoir réalisé une sauvegarde totale. Grâce à cette méthode on sauvegarde les différences 
