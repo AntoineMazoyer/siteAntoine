@@ -147,14 +147,26 @@
                 align-items: center;
 
                 img {
-                    filter: brightness(50%);
+                    filter: brightness(40%);
                 }
 
                 p {
                     position: absolute;
                     color: beige;
                     text-align: center;
-                    font-size: larger
+                    max-width: min-content;
+                    @include mobile-screen{
+                        font-size: x-small;
+                    }
+                    @include tablet-screen{
+                        font-size: larger;
+                    }
+                    @include normal-screen{
+                        font-size: larger;
+                    }
+                    @include huge-screen{
+                        font-size: x-large;
+                    }
                 }
             }
         }

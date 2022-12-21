@@ -145,13 +145,35 @@
   align-items: center;
 }
 .my-grid .hobbies .hobbies-image .style-image img {
-  filter: brightness(50%);
+  filter: brightness(40%);
 }
 .my-grid .hobbies .hobbies-image .style-image p {
   position: absolute;
   color: beige;
   text-align: center;
-  font-size: larger;
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
+}
+@media screen and (min-width: 320px) {
+  .my-grid .hobbies .hobbies-image .style-image p {
+    font-size: x-small;
+  }
+}
+@media screen and (min-width: 768px) {
+  .my-grid .hobbies .hobbies-image .style-image p {
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .my-grid .hobbies .hobbies-image .style-image p {
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .my-grid .hobbies .hobbies-image .style-image p {
+    font-size: x-large;
+  }
 }
 .my-grid .cv.dwnld {
   grid-column: 1;

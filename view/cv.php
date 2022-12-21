@@ -68,13 +68,15 @@
         <hr>
         <section class="experience">
             <h3>Mes expériences</h3>
+            <p>N'hésitez pas à appuyer sur les images pour plus de détail</p>
             <div class="row">
                 <div class="carousel">
                     <a class="carousel-item"><p>AIR ATLANTIQUE</p><img class="modal-trigger" href="#modalAA" src="../public/medias/airAtlantique.svg"></a>
                     <a class="carousel-item"><p>ASGP - La Poste</p><img src="../public/medias/ASGP.PNG"></a>
-                    <a class="carousel-item"><p>TROIS</p><img src="https://lorempixel.com/250/250/nature/3"></a>
-                    <a class="carousel-item"><p>QUATRE</p><img src="https://lorempixel.com/250/250/nature/4"></a>
-                    <a class="carousel-item"><p>CINQ</p><img src="https://lorempixel.com/250/250/nature/5"></a>
+                    <a class="carousel-item"><p>La maison de l'innovation - La Poste</p><img src="../public/medias/maisonInnovation.jpg"></a>
+                    <a class="carousel-item"><p>Profil Juridique - La Poste</p><img src="../public/medias/powerApps.jpg"></a>
+                    <a class="carousel-item"><p>Projets Data Analyst</p><img src="../public/medias/dataAnalyst.jpg"></a>
+                    <a class="carousel-item"><p>Projets DevOps</p><img src="https://lorempixel.com/250/250/nature/5"></a>
                 </div>
                 <div id="modalAA" class="modal modal-fixed-footer">
                     <div class="modal-content">
@@ -110,7 +112,7 @@
                     </div>
                     <div class="style-image">
                         <img class="circle responsive-img" src="../public/medias/jeux-video.jpg">
-                        <p>Jeux Vidéos <br> et <br> Jeux de plateaux</p>
+                        <p>Jeux Vidéos / Jeux de plateaux</p>
                     </div>
                     <div class="style-image">
                         <img class="circle responsive-img" src="../public/medias/voyage.jpg">
