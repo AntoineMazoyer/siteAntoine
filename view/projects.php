@@ -13,10 +13,10 @@
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Air Atlantique | Nombre de personnes sur le projet : 2<i class="material-icons right">close</i></span>
-                <p>Actions réalisés pour mener à bien le projet : <br><br>
-                    - Analyse du cahier des charges que vous pouvez retrouvez <a href="/public/medias/Sujets-AA.pdf" target="_blank" download="Sujets-AA.pdf">ici</a> !<br>
-                    - Réalisation d'un schéma des cas d'utilisation permettant de connaître le rôle de chaque acteur qui interagit avec l'application.<br>
-                    - Réalisation d'un schéma de base de données en prenant en compte les informations de notre document et les informations donnés par notre intervenant à l'oral que vous pouvez retrouver ici.<br>
+                <p>Actions réalisées pour mener à bien le projet : <br><br>
+                    - Analyse du cahier des charges que vous pouvez retrouvez <a href="/public/medias/Sujets-AA.pdf" target="_blank">ici</a> !<br>
+                    - Réalisation du schéma des cas d'utilisation permettant de connaître le rôle de chaque acteur qui interagit avec l'application.<br>
+                    - Réalisation du schéma de base de données en prenant en compte les informations de notre document et les informations données par notre intervenant à l'oral que vous pouvez retrouver <a href="/public/medias/NotesBDD.txt" target="_blank">ici</a>.<br>
                     - Conception de la base de données sous SQL avec le logiciel MSSMS (Microsoft SQL Server Management Studio) une fois que notre schéma a été validé par notre intervenant.<br>
                     - Réalisation de l'application backend en C# avec WPF.<br>
                     - Réalisation de l'application frontend en PHP avec le framework Symfony.<br>
@@ -35,7 +35,7 @@
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">La Poste | Nombre de personnes sur le projet : 1<i class="material-icons right">close</i></span>
-                <p>Actions réalisés pour mener à bien le projet : <br><br>
+                <p>Actions réalisées pour mener à bien le projet : <br><br>
                     - Rédaction du cahier des charges avec l'ensemble des fonctionnalités que va contenir l'application.<br>
                     - Création d'un fichier excel "matrice/role" permettant de définir les droits de chaque utilisateur sur notre application.<br>
                     - Maquettage du site avec Figma permettant de savoir si le besoin correspondait avant de commencer à développer.<br>

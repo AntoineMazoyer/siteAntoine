@@ -1,0 +1,28 @@
+Cahier des charges -> Ce qu'il faut stocker dans la BDD :
+-> les vols de NOTRE compagnie et pas d'une autre.
+-> gestion des vols (on a un certains nombres de lignes qui sont négociées annuellement (affectées par le contrôle aérien)
+-> aéroport d'arrivé, de départ avec heures, dates, etc... (pas le même temps de trajet entre les mêmes destinations. Ex.: vent, etc...)
+-> Référence de vol et la réf de la place assise. Planification des vols avec date, heure, etc...
+-> Pouvoir voir l'historique des vols.
+-> Heure d'arrivée prévue et heure d'arrivée réelle / même chose avec heure de départ.
+-> Code aita à trois lettres qui identifiera l'aéroport (doit être aperçu sur le billet).
+-> organisation des voyages (combinaisons de vols comme la commercialisation d'un Paris - Sydney, Hong Gong - Sydney) 1 seule compagnie aérienne !
+-> empêcher un voyage sans logique ! (Paris vers Paris ou Paris - Tokyo sans escale)
+-> pour les trois classes, implémenter un tarif différent (tarif enfant, tarif réduit, tarif normal).
+-> tarifs stockés par voyage.
+-> vérifier le billet ainsi que l'identité du voyageur.
+-> passager peut acheter son billet > nominatif.
+-> bagages : poids / prix (pouvoir ajouter un surcoût si le poids dépasse) / check-in et check-out.
+-> employer avec deux types : naviguant et au sol (date d'embauche/date de naissance/nom et prénom/nationalité/matricule).
+-> affectation des employés de chaque aéroport.
+-> pour personnel naviguant (constitution d'équipage pour chaque vol que l'on effectue) -> savoir quel poste ils occupent -> au minimum (une hotesse ou un stewart, un coopilote et un pilote).
+-> sur chacun des employés, il faut savoir s'il y en a un qui a au moins le permis piste.
+-> un avion -> connaître le modèle et sa configuration (cargot ou courrier)
+-> nombre de places pour le personnel naviguant
+-> voir le nombre de places disponibles. Faire en sorte que ce soit la BDD qu'il le fasse. (Fonction permettant de calculer un pourcentage).
+-> autorisation de décollage ou non.
+-> savoir si l'avion est loué ou pas.
+-> savoir où est l'avion (en l'air ou dans un entrepôt).
+-> déclaration d'un incident en mettant un commentaire (1 à 5) / date d'incident.
+-> opération de maintenance (réponse à un incident ou pas) / date de début et fin / changement de statut.
+-> équipe de maintenance pour savoir qui a fait la maintencance et il y aura un responsable.

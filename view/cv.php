@@ -19,7 +19,7 @@
                 </li>
             </ul>
             <div class="extra">
-                <p>Permis B</p>
+                <p>Permis B</p><br>
             </div>
         </div>
     </div>
@@ -70,11 +70,28 @@
             <h3>Mes expériences</h3>
             <div class="row">
                 <div class="carousel">
-                    <a class="carousel-item" href="#one!"><p>AIR ATLANTIQUE</p><img src="../public/medias/airAtlantique.png"></a>
-                    <a class="carousel-item" href="#two!"><p>ASGP - La Poste</p><img src="../public/medias/ASGP.PNG"></a>
-                    <a class="carousel-item" href="#three!"><p>TROIS</p><img src="https://lorempixel.com/250/250/nature/3"></a>
-                    <a class="carousel-item" href="#four!"><p>QUATRE</p><img src="https://lorempixel.com/250/250/nature/4"></a>
-                    <a class="carousel-item" href="#five!"><p>CINQ</p><img src="https://lorempixel.com/250/250/nature/5"></a>
+                    <a class="carousel-item"><p>AIR ATLANTIQUE</p><img class="modal-trigger" href="#modalAA" src="../public/medias/airAtlantique.svg"></a>
+                    <a class="carousel-item"><p>ASGP - La Poste</p><img src="../public/medias/ASGP.PNG"></a>
+                    <a class="carousel-item"><p>TROIS</p><img src="https://lorempixel.com/250/250/nature/3"></a>
+                    <a class="carousel-item"><p>QUATRE</p><img src="https://lorempixel.com/250/250/nature/4"></a>
+                    <a class="carousel-item"><p>CINQ</p><img src="https://lorempixel.com/250/250/nature/5"></a>
+                </div>
+                <div id="modalAA" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <h4>Détail du projet</h4>
+                        <p>Actions réalisées pour mener à bien le projet : <br><br>
+                            - Analyse du cahier des charges que vous pouvez retrouvez <a href="/public/medias/Sujets-AA.pdf" target="_blank">ici</a> !<br>
+                            - Réalisation du schéma des cas d'utilisation permettant de connaître le rôle de chaque acteur qui interagit avec l'application.<br>
+                            - Réalisation du schéma de base de données en prenant en compte les informations de notre document et les informations données par notre intervenant à l'oral que vous pouvez retrouver <a href="/public/medias/NotesBDD.txt" target="_blank">ici</a>.<br>
+                            - Conception de la base de données sous SQL avec le logiciel MSSMS (Microsoft SQL Server Management Studio) une fois que notre schéma a été validé par notre intervenant.<br>
+                            - Réalisation de l'application backend en C# avec WPF.<br>
+                            - Réalisation de l'application frontend en PHP avec le framework Symfony.<br>
+                            - Mise en place de différents types de test pour vérifier que nos applications seront bien fonctionnelles.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+                    </div>
                 </div>
             </div>
         </section>

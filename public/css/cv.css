@@ -151,6 +151,7 @@
   position: absolute;
   color: beige;
   text-align: center;
+  font-size: larger;
 }
 .my-grid .cv.dwnld {
   grid-column: 1;
