@@ -94,7 +94,7 @@
 
 <section class="projects_technology">
     <div class="projects col s6">
-      <h2><a href="projets&veille_techno">Projets et Veille Technologique</a></h2>
+      <h2><a href="projets">Projets</a> et <a href="VeilleTechno">Veille Technologique</a></h2>
     </div>
 </section>
 

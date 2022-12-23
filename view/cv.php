@@ -25,7 +25,7 @@
     </div>
     <div class="information">
         <section class="profil">
-            <h3>Mon profil</h3>
+            <h4>Mon profil</h4>
             <div class="content-profil">
                 <p>Rigoureux , je suis à l’aise quand il faut réaliser des études, des suivis de chiffres, traiter l’information.</p>
                 <p>Curieux et imaginatif, le développement informatique est un domaine dans lequel j’aimerai m’investir et travailler à terme.</p>
@@ -34,7 +34,7 @@
         </section>
         <hr>
         <section class="formation">
-            <h3>Mes formations</h3>
+            <h4>Mes formations</h4>
             <div class="content-formation">
             <table class="striped">
                 <thead>
@@ -67,16 +67,16 @@
         </section>
         <hr>
         <section class="experience">
-            <h3>Mes expériences</h3>
+            <h4>Mes expériences</h4>
             <p>N'hésitez pas à appuyer sur les images pour plus de détail</p>
             <div class="row">
                 <div class="carousel">
                     <a class="carousel-item"><p>AIR ATLANTIQUE</p><img class="modal-trigger" href="#modalAA" src="../public/medias/airAtlantique.svg"></a>
-                    <a class="carousel-item"><p>ASGP - La Poste</p><img src="../public/medias/ASGP.PNG"></a>
-                    <a class="carousel-item"><p>La maison de l'innovation - La Poste</p><img src="../public/medias/maisonInnovation.jpg"></a>
-                    <a class="carousel-item"><p>Profil Juridique - La Poste</p><img src="../public/medias/powerApps.jpg"></a>
-                    <a class="carousel-item"><p>Projets Data Analyst</p><img src="../public/medias/dataAnalyst.jpg"></a>
-                    <a class="carousel-item"><p>Projets DevOps</p><img src="https://lorempixel.com/250/250/nature/5"></a>
+                    <a class="carousel-item"><p>ASGP - La Poste</p><img class="modal-trigger" href="#modalASGP" src="../public/medias/ASGP.PNG"></a>
+                    <a class="carousel-item"><p>La maison de l'innovation - La Poste</p><img class="modal-trigger" href="#modalMI" src="../public/medias/maisonInnovation.jpg"></a>
+                    <a class="carousel-item"><p>Profil Juridique - La Poste</p><img class="modal-trigger" href="#modalPJ" src="../public/medias/powerApps.jpg"></a>
+                    <a class="carousel-item"><p>Projets Data Analyst</p><img class="modal-trigger" href="#modalDATA" src="../public/medias/dataAnalyst.jpg"></a>
+                    <a class="carousel-item"><p>Projets DevOps</p><img class="modal-trigger" href="#modalOPS" src="../public/medias/devops.png"></a>
                 </div>
                 <div id="modalAA" class="modal modal-fixed-footer">
                     <div class="modal-content">
@@ -95,11 +95,67 @@
                         <a class="modal-close waves-effect waves-green btn-flat">Fermer</a>
                     </div>
                 </div>
+                <div id="modalASGP" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <h4>Détail du projet</h4>
+                        <p>Actions réalisées pour mener à bien le projet : <br><br>
+                            - Rédaction du cahier des charges avec l'ensemble des fonctionnalités que va contenir l'application.<br>
+                            - Création d'un fichier excel "matrice/role" permettant de définir les droits de chaque utilisateur sur notre application.<br>
+                            - Maquettage du site avec Figma permettant de savoir si le besoin correspondait avant de commencer à développer.<br>
+                            - Développement de l'application en respectant deux principes fondamentaux du groupe : l'accessibilité et l'éco-conception.<br>
+                            - Réalisation de la base de données au fur et à mesure. Un schéma de la base de données a été réalisé.<br>
+                            - Mise en ligne de mon code sur le GitLab de l'entreprise
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+                    </div>
+                </div>
+                <div id="modalMI" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <h4>Détail du projet</h4>
+                        <p>content here
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+                    </div>
+                </div>
+                <div id="modalPJ" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <h4>Détail du projet</h4>
+                        <p>content here
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+                    </div>
+                </div>
+                <div id="modalDATA" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <h4>Détail du projet</h4>
+                        <p>content here
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+                    </div>
+                </div>
+                <div id="modalOPS" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <h4>Détail du projet</h4>
+                        <p>content here
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+                    </div>
+                </div>
             </div>
         </section>
         <hr>
         <section class="hobbies">
-            <h3>Mes centres d'intérêts</h3>
+            <h4>Mes centres d'intérêts</h4>
             <div class="row">
                 <div class="hobbies-image">
                     <div class="style-image">

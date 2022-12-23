@@ -6,7 +6,7 @@ body{
     padding: 0;
 }
 
-.project-content {
+.technology-content {
     background-color: darken($white-color, 80%);
     display: flex;
     flex-direction: column;
@@ -36,11 +36,24 @@ body{
         &:after{
             content: none;
         }
-            .col.s5 {
-                width: 41.6666666667%;
-                margin-left: 0;
-                left: 0;
-                right: 0;
+        .col.s5 {
+            width: 41.6666666667%;
+            margin-left: 0;
+            left: 0;
+            right: 0;
+        }
+        .raid-img {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 5px;
+            grid-row-gap: 0px;
+            justify-items: center;
+            align-items: center;
+            margin-top: 3%;
+            p{
+                font-size: 1,2vh;
             }
+        }
     }
 }

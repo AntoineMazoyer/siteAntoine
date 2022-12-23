@@ -6,7 +6,6 @@ echo '<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@50
 echo '<script src="../public/javascript/projects.js" type="text/javascript"></script>';
 echo '<link href="../public/css/projects.css" rel="stylesheet" type="text/css"></link>';
 echo '<link href="../public/medias/antoine.ico" rel="icon" type="image/png"></link>';
-// require_once('../public/templates/navbar.php');
 require_once('../model/projects.php');
 
 $title = "Projets";

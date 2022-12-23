@@ -6,7 +6,6 @@ echo '<script src="../public/javascript/home.js" type="text/javascript"></script
 echo '<link href="../public/css/home.css" rel="stylesheet" type="text/css"></link>';
 echo '<link href="../public/css/footer.css" rel="stylesheet" type="text/css"/>';
 echo '<link href="../public/medias/antoine.ico" rel="icon" type="image/png"></link>';
-// require_once('../public/templates/navbar.php');
 require_once('../model/home.php');
 
 $title = "Accueil";
