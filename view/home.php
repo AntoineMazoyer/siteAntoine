@@ -38,6 +38,10 @@
 
         <tbody>
           <tr>
+            <td>Filière DevOps</td>
+            <td>Formation de 3 mois dans le DevOps</td>
+          </tr>
+          <tr>
             <td>Data Analyst</td>
             <td>Master 1 en Data Analyst</td>
           </tr>

@@ -114,7 +114,7 @@
                 <div id="modalMI" class="modal modal-fixed-footer">
                     <div class="modal-content">
                         <h4>Détail du projet</h4>
-                        <p>content here
+                        <p>Actions réalisées pour mener à bien le projet : <br><br>
                         </p>
                     </div>
                     <div class="modal-footer">
@@ -124,7 +124,7 @@
                 <div id="modalPJ" class="modal modal-fixed-footer">
                     <div class="modal-content">
                         <h4>Détail du projet</h4>
-                        <p>content here
+                        <p>Actions réalisées pour mener à bien le projet : <br><br>
                         </p>
                     </div>
                     <div class="modal-footer">
@@ -134,7 +134,8 @@
                 <div id="modalDATA" class="modal modal-fixed-footer">
                     <div class="modal-content">
                         <h4>Détail du projet</h4>
-                        <p>content here
+                        <p>Vous pouvez télécharger le fichier Excel concernant l'ensemble des projets réalisés afin de valider mon diplôme de Data Analyst <a href="/public/medias/Projets réalisés.xlsx" target="_blank">ici</a>.<br>
+                        Une page plus explicite sera réalisée afin de vous montrer le travail détaillé.
                         </p>
                     </div>
                     <div class="modal-footer">
@@ -144,7 +145,7 @@
                 <div id="modalOPS" class="modal modal-fixed-footer">
                     <div class="modal-content">
                         <h4>Détail du projet</h4>
-                        <p>content here
+                        <p>Pas de contenu pour le moment (en cours de réalisation).
                         </p>
                     </div>
                     <div class="modal-footer">
